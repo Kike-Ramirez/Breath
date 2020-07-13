@@ -56,7 +56,6 @@ void loop() {
         timerLed = millis();
         analogWrite(led, brightness);
         Serial.println(brightness);
-        delay(30);
         break;      
       }
 
